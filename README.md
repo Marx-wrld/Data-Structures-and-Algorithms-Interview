@@ -23,7 +23,7 @@ OUTPUT: [2,3,5,7,11,13,17,19,23,29,31]
 => The Fizz and Buzz refer to any number that is a multiple is a multiple of 3 and 5.
 
 Solution:
-
+'''
   for i in range(1,20):
     if i % 3 == 0 and i % 5 == 0:
         print("FizzBuzz")
@@ -33,6 +33,6 @@ Solution:
         print("Buzz")
     else:
         print(i)
-        
+ '''
 ## Question 3
 
