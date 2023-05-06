@@ -51,5 +51,6 @@ class queue:
     def dequeue(self):
         return self.items.pop()
     def size(self):
+    
     return len(self.items)
 ```
