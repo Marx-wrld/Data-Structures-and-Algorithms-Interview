@@ -20,7 +20,7 @@ OUTPUT: [2,3,5,7,11,13,17,19,23,29,31]
 
 ## Question 2
 2. Implement the FizzBuzz algorithm using Python
-=> The Fizz and Buzz refer to any number that is a multiple is a multiple of 3 and 5.
+=> The Fizz and Buzz refers to any number that is a multiple is a multiple of 3 and 5.
 
 Solution:
 ```
@@ -36,4 +36,20 @@ for i in range(1,20):
         
 ```
 ## Question 3
+3. Implement Queues in Data structures
+=> A queue is a data structure where e insert items from the back and remove items from the front
 
+Solution:
+```
+class queue:
+    def __init__(self):
+        self.items = []
+    def is_empty(self):
+        return self.items == []
+    def enqueue(self, item):
+        self.items.insert(0, item)
+    def dequeue(self):
+        return self.items.pop()
+    def size(self):
+    return len(self.items)
+```
