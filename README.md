@@ -37,7 +37,7 @@ for i in range(1,20):
 ```
 ## Question 3
 3. Implement Queues in Data structures
-=> A queue is a data structure where e insert items from the back and remove items from the front
+=> A queue is a data structure where we insert items from the back and remove items from the front
 
 Solution:
 ```
