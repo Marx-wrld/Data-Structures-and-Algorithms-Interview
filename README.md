@@ -24,7 +24,7 @@ OUTPUT: [2,3,5,7,11,13,17,19,23,29,31]
 
 Solution:
 
-for i in range(1,20):
+  for i in range(1,20):
     if i % 3 == 0 and i % 5 == 0:
         print("FizzBuzz")
     elif i % 3 == 0:
