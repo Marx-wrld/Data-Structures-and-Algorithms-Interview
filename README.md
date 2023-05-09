@@ -77,3 +77,30 @@ list1.headval.nextval = e2
 #Link second Node to third node
 e2.nextval = e3
 ```
+## Question 5
+5. Implement the stack in Data structures and demonstrate the push and pop function
+=> A stack is an abstract data type that provides a linear data structure, analogous to a physical stack or pile where objects may only be removed from the top. 
+=> As a result, item insertion (push) and deletion (pop) take place only at one end of the stack, the top of the stack, and in a certain order: LIFO (Last In First Out) or FILO (First In Last Out)
+
+Solution: 
+```
+stack = []
+ 
+#append() function to push element in the stack
+stack.append('a')
+stack.append('b')
+stack.append('c')
+ 
+print('Initial stack')
+print(stack)
+ 
+#pop() function to pop element from stack in LIFO order
+print('\nElements popped from stack:')
+print(stack.pop())
+print(stack.pop())
+print(stack.pop())
+ 
+print('\nStack after elements are popped:')
+print(stack)
+ 
+#uncommenting print(stack.pop()) will cause an IndexError as the stack is now empty
