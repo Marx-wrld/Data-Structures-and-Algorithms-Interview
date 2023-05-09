@@ -53,3 +53,27 @@ class queue:
     def size(self):
     return len(self.items)
 ```
+
+## Question 4
+4. Implement Linked list in Data structures
+=> Linked lists are a sort of data structure in which each data node has a relational pointer that connects it to the next node in the list.
+
+Solution: 
+```
+class Node:
+    def __init__(self, dataval=None):
+        self.dataval = dataval
+        self.nextval = None 
+class SLinkedList:
+    def __init__(self):
+        self.headval = None
+ 
+list1 = SLinkedList()
+list1.headval = Node("Mon")
+e2 = Node("Tue")
+e3 = Node("Wed")
+#Link first Node to second node
+list1.headval.nextval = e2
+#Link second Node to third node
+e2.nextval = e3
+```
