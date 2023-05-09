@@ -2,7 +2,7 @@
 Interview questions on Data structures and algorithms with Python and how to answer them.
 ## Question 1
 1. Write a program to print all the prime numbers in an interval. Given k numbers which are less than n, return the set of prime numbers among them.
-```
+
 n = 35 
 def solution(n):
     prime_nums = []
@@ -15,7 +15,7 @@ def solution(n):
                 prime_nums.append(num)
     return prime_nums
 solution(n)
-```
+
 OUTPUT: [2,3,5,7,11,13,17,19,23,29,31]
 
 ## Question 2
@@ -23,7 +23,7 @@ OUTPUT: [2,3,5,7,11,13,17,19,23,29,31]
 => The Fizz and Buzz refers to any number that is a multiple is a multiple of 3 and 5.
 
 Solution:
-```
+
 for i in range(1,20):
     if i % 3 == 0 and i % 5 == 0:
         print("FizzBuzz")
@@ -34,13 +34,13 @@ for i in range(1,20):
     else:
         print(i)
         
-```
+
 ## Question 3
 3. Implement Queues in Data structures
 => A queue is a data structure where we insert items from the back and remove items from the front
 
 Solution:
-```
+
 class queue:
     def __init__(self):
         self.items = []
@@ -52,14 +52,14 @@ class queue:
         return self.items.pop()
     def size(self):
     return len(self.items)
-```
+
 
 ## Question 4
 4. Implement Linked list in Data structures
 => Linked lists are a sort of data structure in which each data node has a relational pointer that connects it to the next node in the list.
 
 Solution: 
-```
+
 class Node:
     def __init__(self, dataval=None):
         self.dataval = dataval
@@ -76,14 +76,14 @@ e3 = Node("Wed")
 list1.headval.nextval = e2
 #Link second Node to third node
 e2.nextval = e3
-```
+
 ## Question 5
 5. Implement the stack in Data structures and demonstrate the push and pop function
 => A stack is an abstract data type that provides a linear data structure, analogous to a physical stack or pile where objects may only be removed from the top. 
 => As a result, item insertion (push) and deletion (pop) take place only at one end of the stack, the top of the stack, and in a certain order: LIFO (Last In First Out) or FILO (First In Last Out)
 
 Solution: 
-```
+
 stack = []
  
 #append() function to push element in the stack
