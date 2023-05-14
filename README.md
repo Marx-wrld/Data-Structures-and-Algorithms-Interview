@@ -19,7 +19,8 @@ solution(n)
 OUTPUT: [2,3,5,7,11,13,17,19,23,29,31]
 
 ## Question 2
-2. Implement the FizzBuzz algorithm using Python
+2. Implement the FizzBuzz algorithm using Python.
+&nbsp  
 => The Fizz and Buzz refers to any number that is a multiple is a multiple of 3 and 5.
 
 Solution:
